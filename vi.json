@@ -1,0 +1,304 @@
+{
+	"info": {
+		"_postman_id": "21a0231a-bafd-4bee-b3fe-50dec0b735be",
+		"name": "Adorn india",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "20145336"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"slug\": \"treatments\",\n    \"status\": 1,\n    \"location_id\": \"60ba7674e0f95f94d2c2e36a\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://192.168.1.59:4201/api/v1/all-pages"
+			},
+			"response": []
+		},
+		{
+			"name": "All Pages",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"slug\": \"treatments\",\n    \"status\": 1,\n    \"location_id\": \"614af310803f805710ad0be1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://192.168.1.59:3001/api/v1/all-pages"
+			},
+			"response": []
+		},
+		{
+			"name": "Treatments",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"slug\": \"treatments\",\n    \"status\": 1,\n    \"location_id\": \"60ba7674e0f95f94d2c2e36a\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://192.168.1.59:3001/api/v1/custom-page"
+			},
+			"response": []
+		},
+		{
+			"name": "custom-slider,footer-brands",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"type\": \"footer-brands\",\n    \"status\": 1,\n    \"location_id\": \"60ba7674e0f95f94d2c2e36a\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://192.168.1.59:3001/api/v1/custom-slider"
+			},
+			"response": []
+		},
+		{
+			"name": "custom-slider,home-page",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"type\": \"home-page\",\n    \"status\": 1,\n    \"location_id\": \"60ba7674e0f95f94d2c2e36a\"\n\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://192.168.1.59:3001/api/v1/custom-slider"
+			},
+			"response": []
+		},
+		{
+			"name": "customs-menus",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"parent_id\": null ,  \n \"status\": 1,\n \"location_id\": \"60ba7674e0f95f94d2c2e36a\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://192.168.1.59:3001/api/v1/customs-menus"
+			},
+			"response": []
+		},
+		{
+			"name": "custom-Testimonial",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\n\n   { \"limit\": 2,\n   \"location_id\": \"60d39037fa86fab9240cb075\",\n   \"status\": 1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://192.168.1.59:3001/api/v1/custom-Testimonial"
+			},
+			"response": []
+		},
+		{
+			"name": "gift-voucher",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"slug\": \"gift-voucher\",\n\"location_id\": \"60d39037fa86fab9240cb075\",\n\"status\": 1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://192.168.1.59:3001/api/v1/custom-page"
+			},
+			"response": []
+		},
+		{
+			"name": "Gallery",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"slug\": \"gallery\",\n\"location_id\": \"60d39037fa86fab9240cb075\",\n\"status\": 1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://192.168.1.59:3001/api/v1/custom-page"
+			},
+			"response": []
+		},
+		{
+			"name": "Career",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"slug\": \"career\",\n\"location_id\": \"60d39037fa86fab9240cb075\",\n\"status\": 1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://192.168.1.59:3001/api/v1/custom-page"
+			},
+			"response": []
+		},
+		{
+			"name": "Contact Us",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"slug\": \"contact-us\",\n\"location_id\": \"60d39037fa86fab9240cb075\",\n\"status\": 1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://192.168.1.59:3001/api/v1/custom-page"
+			},
+			"response": []
+		},
+		{
+			"name": "Special Offers",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "   {\"slug\": \"special-offers\",\n   \"location_id\": \"60d39037fa86fab9240cb075\",\n   \"status\": 1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://192.168.1.59:3001/api/v1/custom-page"
+			},
+			"response": []
+		},
+		{
+			"name": "About Us",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"slug\": \"about-us\",\n\"location_id\": \"60d39037fa86fab9240cb075\",\n\"status\": 1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://192.168.1.59:3001/api/v1/custom-page"
+			},
+			"response": []
+		},
+		{
+			"name": "gallery-image",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"limit\":200,\n\"location_id\": \"60ba7674e0f95f94d2c2e36a\",\n\"status\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://192.168.1.59:3001/api/v1/custom-gallery"
+			},
+			"response": []
+		},
+		{
+			"name": "Lash -Treatment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n     \"location_id\": \"60ba7674e0f95f94d2c2e36a\",\n     \"slug\": \"lash-treatment\",\n     \"status\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://192.168.1.59:3001/api/v1/custom-page"
+			},
+			"response": []
+		},
+		{
+			"name": "brows-treatment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n     \"location_id\": \"60ba7674e0f95f94d2c2e36a\",\n     \"slug\": \"brows-treatment\",\n     \"status\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://192.168.1.59:3001/api/v1/custom-page"
+			},
+			"response": []
+		}
+	]
+}
